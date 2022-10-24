@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./searchBar.module.scss";
 
-class SearchBar extends React.PureComponent {
+export class SearchBar extends React.PureComponent {
   render() {
     return (
       <div className={styles.container}>
@@ -11,5 +11,3 @@ class SearchBar extends React.PureComponent {
     );
   }
 }
-
-export default SearchBar;
